@@ -1,16 +1,45 @@
-# React + Vite
+# Company Profile Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Website profil perusahaan modern untuk industri konstruksi dan distributor material bangunan. Dibangun menggunakan **React (Vite)** dan **Tailwind CSS v4** dengan desain bertema *Industrial* yang gagah dan responsif.
 
-Currently, two official plugins are available:
+![Project Preview](./video_preview.mp4)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Fitur Utama
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Desain Industrial Premium:** Menggunakan palet warna Merah (#EE3539), Hitam (#111827), dan Oranye (#FAA954) yang mencerminkan kekuatan dan keberanian.
+* **Responsive Layout:** Tampilan optimal di Desktop, Tablet, dan Mobile.
+* **Hero Section Dinamis:** Tampilan awal yang menarik dengan CTA yang jelas.
+* **Katalog Produk:** Grid produk yang rapi dengan link ke detail.
+* **About Us & Timeline:** Halaman "Tentang Kami" dengan visualisasi sejarah perusahaan (Timeline) dan pemutar Video Profil Perusahaan.
+* **Contact Page:** Formulir kontak interaktif dan integrasi Google Maps.
+* **Marketplace Links:** Integrasi tombol ke Official Store (Shopee/Tokopedia).
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Framework:** [React.js](https://react.dev/) (via Vite)
+* **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+* **Routing:** React Router DOM
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Slider/Carousel:** Swiper.js
+
+## Struktur Folder
+
+Proyek ini menggunakan struktur *Clean Code* untuk memudahkan pengembangan:
+
+```bash
+src/
+├── components/          # Komponen UI yang dapat digunakan kembali
+│   ├── cards/           # Komponen kartu (ProductCard, dll)
+│   ├── layout/          # Layout utama (Navbar, Footer)
+│   └── ...
+├── data/                # Data statis (JSON like)
+│   ├── products.js      # Data daftar produk
+│   └── content.js       # Data konten lainnya
+├── pages/               # Halaman utama website
+│   ├── Home.jsx         # Halaman Beranda
+│   ├── About.jsx        # Halaman Tentang Kami (Timeline & Video)
+│   ├── Contact.jsx      # Halaman Kontak
+│   └── ProductDetail.jsx
+├── App.jsx              # Routing utama
+└── index.css            # Global CSS & Tailwind imports    
