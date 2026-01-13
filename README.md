@@ -2,7 +2,7 @@
 
 Website profil perusahaan modern untuk industri konstruksi dan distributor material bangunan. Dibangun menggunakan **React (Vite)** dan **Tailwind CSS v4** dengan desain bertema *Industrial* yang gagah dan responsif.
 
-![Project Preview](./video_preview.mp4)
+![Project Preview](video_preview.mp4)
 
 
 ## Fitur Utama
