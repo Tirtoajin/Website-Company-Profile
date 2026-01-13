@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Reset sederhana */
+body {
+  background-color: #ffffff;
+  color: #1f2937;
+}
+
+/* Custom Scrollbar (Opsional - biar cantik) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #ee3539; /* Warna Primary */
+  border-radius: 4px;
+}
