@@ -4,7 +4,7 @@ Website profil perusahaan modern untuk industri konstruksi dan distributor mater
 
 ## Demo Aplikasi
 
-https://github.com/Tirtoajin/website-company-profile/blob/main/video_preview.mp4
+https://port-site-v1.vercel.app/
 
 
 
@@ -46,3 +46,12 @@ src/
 │   └── ProductDetail.jsx
 ├── App.jsx              # Routing utama
 └── index.css            # Global CSS & Tailwind imports    
+```
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/e53ec41c-8900-4258-93fb-8984c670630b"
+    alt="Company Profile Home"
+    width="800"
+  />
+</p>
+
